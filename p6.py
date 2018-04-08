@@ -1,0 +1,10 @@
+print("Let's make a list and a tuple with Python")
+newInput = input("Enter numbers to use (seperated by commas): ")
+newList = newInput.split(',')
+newTuple = (tuple(newList))
+
+print("List: ",newList)
+print(len(newList))
+print()
+print("Tuple: ", newTuple)
+print(len(newTuple))
